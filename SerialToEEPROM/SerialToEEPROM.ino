@@ -1,10 +1,5 @@
 #include <EEPROM.h>
 
-//struct MyArray {
-//  String string;
-//  byte lenght;
-//};
-
 int address = 5;
 byte value;
 
@@ -14,7 +9,6 @@ void setup() {
   while (!Serial) {
     ;
   }
-//  MyArray arrayValue;
   EEPROM.get(address, value);
 
   Serial.print(address);
