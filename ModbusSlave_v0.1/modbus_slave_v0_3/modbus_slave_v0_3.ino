@@ -8,7 +8,7 @@ const uint8_t     PIN_direction_TX_RX = 2;
 ModbusSerial mb;
 
 // Device ID
-const int SlaveID = 12;
+const int SlaveID = 10;
 
 // Modbus Registers Offsets
 const int COIL_BUTTON_1 = 1; 
